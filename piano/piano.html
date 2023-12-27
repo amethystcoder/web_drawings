@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: tomato;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100vh;
+            }
+            #keyboard{
+                background-color: black;
+                border: hidden;
+                border-radius: 20px;
+                padding: 10px;
+            }
+            #keyhead{
+                height: 50px;
+            }
+            #keyrack{
+                width: max-content;
+                height: max-content;
+                display: flex;
+                gap: 10px;
+            }
+            .keyhold{
+                width: max-content;
+                height: max-content;
+                display: flex;
+                position: relative;
+            }
+            .key{
+                background-color: white;
+                border: black thick;
+                border-radius: 10px;
+                width: 100px;
+                height: 200px;
+            }
+            .accidental{
+                width:60px;
+                height: 120px;
+                position: absolute;
+                top: 0;
+                right: -20px;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="keyboard">
+            <div id="keyhead"></div>
+            <div id="keyrack">
+                <div class="keyhold">
+                    <div class="key"></div>
+                    <div class="accidental"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                    <div class="accidental"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                    <div class="accidental"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                    <div class="accidental"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                    <div class="accidental"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                </div>
+                <div class="keyhold">
+                    <div class="key"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.ball{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: solid black thin;
+    border-radius: 50%;
+    background-color: #af4600;
+    width: 100px;
+    height: 100px;
+}
+.ball-container{
+    width: 90px;
+    height: 90px;
+}
