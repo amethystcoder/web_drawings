@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(#06061b 50%,#ae00514d);/*  */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #06061b;
+}
+.star{
+    background-color: white;
+    width: 2px;
+    height: 2px;
+    border: hidden;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: rgba(255, 255, 255, 0.879) 0px 5px 15px;
+}
+.rain{
+    width: 1px;
+    height: 10px;
+    background-color: rgba(240, 248, 255, 0.503);
+    position: absolute;
+    transform: rotate(45deg);
+    animation: rainMotion 1.5s ease infinite;
+}
+@keyframes rainMotion {
+    to{
+        transform: translate(6000,6000);
+    }
+}
+.moon{
+    width: 100px;
+    height: 100px;
+    border: hidden;
+    border-radius: 50%;
+    background-color: rgb(222, 222, 222);
+    position: absolute;
+    top:50px;
+    right: 50px;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.craters{
+    border: hidden;
+    border-radius: 50%;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(165, 171, 182);
+    display: flex;
+}
+.mountains{
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 3;
+    top: 70%;
+}
+.one{
+    background-color: rgb(23, 3, 103);
+    width: 500px;
+    height: 500px;
+    left: 0;
+}
+.two{
+    background-color: rgb(80, 58, 168);
+    width: 200px;
+    height: 200px;
+    left: 680px;
+}
+.three{
+    background-color: rgb(92, 73, 170);
+    width: 400px;
+    height: 400px;
+    left: 140px;
+}
+.four{
+    background-color: rgb(23, 3, 103);
+    width: 600px;
+    height: 600px;
+    left: 660px;
+}
+.five{
+    background-color: rgb(23, 3, 103);
+    width: 500px;
+    height: 500px;
+    left: 740px;
+}
+.six{
+    background-color: rgb(39, 33, 62);
+    width: 700px;
+    height: 700px;
+    left: 370px;
+}
+.seven{
+    background-color: rgb(38, 5, 172);
+    width: 200px;
+    height: 200px;
+    left: 300px;
+}
+.over{
+    z-index: 4;
+}
+.small{
+    top: 85%;
+}
+.large{
+    top: 70%;
+}
